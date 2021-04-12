@@ -1,0 +1,114 @@
+/* Title of the page */
+.title {
+  color: #00CFFF;
+  font-size: 3.75rem;
+  font-family: cooper-black-std, serif;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+  display: inline-block;
+  margin-left: 8%;
+  margin-top: 2%;
+}
+/* Button return */
+.return {
+  width: 18vh;
+  font-size: 0.626rem;
+  text-align: center;
+  border-radius: 25px;
+  position: relative;
+  top: 10%;
+  margin-left: 2%;
+  background-color: #00CFFF;
+  color: white;
+  box-shadow: 3px 3px 3px 3px #ced4da;
+  font-family: 'Josefin Sans', sans-serif;
+}
+/* Main cards */
+.cards {
+  height: 40vh;
+  width: 30vh;
+  border: solid 5px #00CFFF;
+  border-radius: 31px;
+  margin-bottom: 15%;
+  margin-top: 0%;
+  box-shadow: 4px 4px 4px 4px #ced4da;
+}
+/* Button learn more */
+.learnmore {
+  width: 15vh;
+  background-color: #00CFFF;
+  border-radius: 31px;
+  text-align: center;
+  color: white;
+  font-size: 0.625rem;
+  margin: auto;
+  box-shadow: 3px 3px 3px 3px #ced4da;
+}
+/* Title of the buttons */
+.titlebutton {
+  padding: 5%;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.firstcard {
+  margin-left: 20px;
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+  margin-top: 3.5%;
+}
+
+.allcard {
+  display: inline-block;
+  margin: auto;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+/* Logo */
+.logo {
+  display: inline-block;
+  margin-top: 0%;
+  width: 8%
+}
+
+.head {
+  text-align: left;
+}
+
+.title_card {
+  position: relative;
+  top: 15.5vh;
+  font-family: 'Josefin Sans', sans-serif;
+}
+/* Creation of the bar */
+.blue_line {
+  width: 10%;
+  background-color: #00CFFF;
+  height: 0.5%;
+  position: absolute;
+}
+
+.line1{
+  left: 10%;
+  top: 61%;
+}
+
+.line2 {
+  width: 8%;
+  left: 34.5%;
+  top: 61%;
+}
+
+.line3 {
+  left: 55%;
+  top: 61%;
+}
+
+.line4 {
+  left: 78.5%;
+  top: 61%;
+}
