@@ -1,0 +1,32 @@
+@import url("https://use.typekit.net/nuk4awh.css");
+body{
+    margin: 0;
+}
+.barre1{
+    background-color: #FF3E6C;
+    width: 4vw;
+    height: 100vh;
+    writing-mode: vertical-rl;
+}
+.conteneur{
+    display: flex;
+    justify-content: flex-end
+}
+.barre2{
+    background-color: #00CFFF;
+    width: 4vw;
+    height: 100vh;
+    writing-mode: vertical-rl;
+}
+
+.nom_barre{
+    font-size: 2em;
+    text-align: center;
+    font-family: cooper-black-std, sans-serif;
+    margin-right: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
