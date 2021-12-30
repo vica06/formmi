@@ -1,0 +1,172 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Navigation */
+.barre {
+  width: 4%;
+  height: 101vh;
+  position: absolute;
+  left: 96%;
+  top: -1%;
+  writing-mode: vertical-rl;
+}
+
+.barre2 {
+  background-color: #FF3E6C;
+  margin-top: 0;
+  left: 92%;
+}
+
+.barre3 {
+  background-color: #FFE45E;
+}
+
+.nom_barre {
+  font-size: 2em;
+  text-align: center;
+  font-family: 'cooper-black-std', sans-serif;
+  margin-right: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  width: 10%;
+}
+
+/* Title of the page */
+.titre1 {
+  font: normal 400 3rem "cooper-black-std", serif;
+  text-align: center;
+  color: white;
+  text-shadow: black 1px 1px, black -1px 1px, black -1px -1px, black 1px -1px;
+  margin-top: -4.4%;
+}
+
+.titre2 {
+  font: normal 400 3rem "cooper-black-std", serif;
+  text-align: center;
+  color: #00d0ffb2;
+  margin-top: -86px;
+  margin-left: -6px;
+}
+
+/* Main cards */
+.container {
+  text-align: center;
+  margin-right: 6%;
+  margin-top: 9%;
+}
+
+.allcard {
+  display: inline-block;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+.cards {
+  height: 40vh;
+  width: 15vw;
+  border: solid 5px #00CFFF;
+  border-radius: 30px;
+  margin-bottom: 15%;
+  box-shadow: 3px 3px 3px 3px #ced4da;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: -20%;
+}
+
+.cards a {
+  color: darkgrey;
+  opacity: 60%;
+  transition: all 1s;
+}
+
+.cards a:hover {
+  color: black;
+  opacity: 100%;
+}
+
+/* Button learn more */
+.learnmore {
+  width: 9vw;
+  background-color: #00CFFF;
+  border-radius: 25px;
+  color: white;
+  font-size: 0.625rem;
+  margin: auto;
+  box-shadow: 3px 3px 3px 3px #ced4da;
+  border: solid 2px #00CFFF;
+  cursor: pointer;
+
+  transition: all 1s;
+}
+
+.learnmore:hover {
+  background-color: white;
+}
+
+/* Title of the buttons */
+.titlebutton {
+  padding: 0%;
+}
+
+.learnmore:hover .titlebutton {
+  color: #00CFFF;
+}
+
+/* Responsive */
+@media screen and (min-width:1600px) {
+  .titre1 {
+    margin-top: -5%;
+    font-size: 4rem;
+  }
+
+  .titre2 {
+    margin-top: -6.6%;
+    font-size: 4rem;
+  }
+
+  .container {
+    margin-top: 10%;
+  }
+
+  .allcard h1 {
+    font-size: 2rem;
+  }
+
+  .allcard h2,
+  .allcard h3 {
+    font-size: 1.5rem;
+  }
+
+  .nom_barre {
+    margin-right: 12px;
+  }
+}
+
+@media screen and (max-width:1200px) {
+  .allcard h1 {
+    font-size: 1.1rem;
+  }
+
+  .allcard h2,
+  .allcard h3 {
+    font-size: 1rem;
+  }
+  .nom_barre{
+    font-size: 1rem;
+  }
+}

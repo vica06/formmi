@@ -1,0 +1,193 @@
+@import url("https://use.typekit.net/nuk4awh.css");
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-image: url("photos/formmi.png");
+
+    background-attachment: fixed;
+    background-size: 60% 80%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Navigation */
+.conteneur {
+    display: flex;
+
+}
+
+.barre {
+    width: 4%;
+    height: 101vh;
+    position: absolute;
+    left: 96%;
+    top: -1%;
+    writing-mode: vertical-rl;
+
+}
+
+.barre1 {
+    background-color: #00CFFF;
+    margin-top: 0;
+    left: 88%;
+}
+
+.barre2 {
+    background-color: #FF3E6C;
+    margin-top: 0;
+    left: 92%;
+}
+
+.barre3 {
+    background-color: #FFE45E;
+    margin-top: 0;
+
+}
+
+.nom_barre {
+    font-size: 2em;
+    text-align: center;
+    font-family: 'cooper-black-std', sans-serif;
+    margin-right: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    width: 10%;
+}
+
+/* Text */
+.presentation {
+    text-align: justify;
+    color: #000;
+    margin-left: 11%;
+    margin-top: 1%;
+    font-size: 1.4rem;
+}
+
+h1 {
+    margin-left: 7%;
+    margin-top: 1%;
+    font-size: 2.1rem;
+}
+
+/* b {
+    color: #00CFFF;
+} */
+
+b {
+    color: black;
+    text-decoration: none;
+
+    background: linear-gradient(to top, transparent 10%,
+            10.01%, #00d0ffa9 40.01%, transparent 5px) no-repeat;
+    transition: background-size .3s;
+    background-size: 100% 100%;
+}
+
+b:hover {
+    background-size: 0 100%;
+}
+
+
+
+/* Footer */
+.instagram {
+    position: absolute;
+    top: 93vh;
+    left: 3%;
+    height: 35px;
+    width: 38px;
+}
+
+h2 {
+    position: absolute;
+    top: 92vh;
+    left: 10%;
+    height: 35px;
+    width: 38px;
+    font-size: 1.25rem;
+    color: #000;
+}
+
+/* Responsive */
+@media screen and (max-width: 1750px) {
+    body {
+        background-image: url("photos/formmi.png");
+        background-size: 90% 100%;
+    }
+
+    h1 {
+        position: absolute;
+        top: 13vh;
+    }
+
+    .presentation {
+        position: absolute;
+        top: 20%;
+    }
+
+    h2 {
+        top: 92.5vh;
+    }
+
+}
+
+@media screen and (max-width: 1500px) {
+    .nom_barre {
+        margin-right: 13px;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    h1 {
+        position: absolute;
+        top: 12vh;
+    }
+
+    .nom_barre {
+        font-size: 1.8em;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+
+    .nom_barre {
+        font-size: 1.5em;
+        text-align: center;
+        margin-right: 16px;
+    }
+}
+
+@media screen and(max-width: 1080px) {
+    body {
+        background-image: url("photos/formmi.png");
+        background-size: 90% 100%;
+    }
+
+    .presentation {
+        font-size: 5px;
+        margin-top: 2.5%;
+        font-size: 1.2rem;
+
+    }
+}
+
+@media screen and(max-width: 1105px) {
+    .presentation {
+        font-size: 10rem;
+    }
+}

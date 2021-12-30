@@ -1,0 +1,239 @@
+body{
+    position: relative;
+    margin: 0;
+}
+
+
+/* <header> */
+.barretop{
+    padding-top: 10px; 
+    top:0;
+    height: 7vh;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    background-color: rgb(221, 219, 219);
+
+}
+.boite{
+    width: 45px;
+    height: 31px;
+    position: absolute;
+    right: 3%;
+    top: 31%;
+}
+.logo{
+    position: absolute;
+    height: 10vh;
+    bottom: -13px;
+    left: 1.5%;
+}
+/* </header> */
+/* <burgermenu> */
+
+.burgermenu{
+    position: absolute;
+    right: 3%;
+    top: 18%;
+}
+ul{
+    position: absolute;
+    right: 5%;
+    top: 10%;
+    width: 90vw;
+}
+
+.bg1{
+    background-color : #00CFFF;
+    width: 40px;
+    height: 4px;
+    margin-top: 2px;
+    
+}
+.bg2{
+    background-color : #FF3E6C;
+    width: 40px;
+    height: 4px;
+    margin-top: 10px;
+
+
+}
+.bg3{
+    background-color : #FFE45E;
+    width: 40px;
+    height: 4px;
+    margin-top: 18px;
+}
+li,a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 2px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.nav{
+    text-align: right;
+    margin-right: 5%;
+    margin-top: 35px;
+}
+
+/* </burgermenu> */
+.container{
+    position: absolute;
+    top: 15%;
+}
+.leflav{
+    width: 15vw;
+    text-align: center;
+}
+.divmid{
+    position: fixed;
+    top:80%;
+    left:45%;
+   -webkit-animation: levitation 2s infinite;
+    animation: levitation 2s infinite; 
+    animation-iteration-count: 5;
+}
+
+@keyframes levitation {
+    from{
+      transform: translateY(100px);
+    }
+    to {
+      transform: translateY(0px);
+    }
+  }
+.divdroite1{
+    position: fixed;
+    right: 25%;
+    top: 45%;
+}
+.d1{
+    width: 10vw;
+}
+.divdroite2{
+    position: fixed;
+    right: 10%;
+    top: 75%;
+    
+}
+.d2{
+    width: 15vw;
+}
+.divgauche1{
+    position: fixed;
+    left: 25%;
+    top: 45%;
+}
+.g1{
+    width: 10vw;
+}
+.divgauche2{
+    position: fixed;
+    left: 10%;
+    top:75%;
+}
+.g2{
+    width: 15vw;
+}
+.center{
+    position: fixed;
+    left:45%;
+   
+}
+.texte{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    left: 40%;
+    z-index: -5;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.3em;
+}
+.rose{
+    color : #FF3E6C;
+}
+.blue{
+    color:blue;
+}
+.btn_cv{
+    background-color: #FF3E6C;
+    border-radius: 50px;
+    width: 119px;
+    height: 38px;
+    padding: 8px;
+    text-align: center;
+    color: white;
+    margin-left: 34%;
+}
+.titre1 {
+    font-family: "cooper-black-std", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-top: 20%;
+    font-size:3em;
+    color: whitesmoke;
+    text-shadow: black 1px 1px, black -1px 1px, black -1px -1px, black 1px -1px;
+    position: relative;
+    z-index: -1;
+    margin-bottom: 0px;
+
+}
+
+.titre2 {
+    font-family: "cooper-black-std", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: #00d0ffb2;
+    position: relative;
+    top: -8.5vh;
+    left: -0.1vw;
+    font-size: 3em;
+}
+.titre{
+    position: absolute;
+    left : 29%;
+}
+.menu{
+    color: inherit;
+    background: linear-gradient(to top, transparent 10%, 
+    #00CFFF 10.01%, #00CFFF 40.01%, transparent 5px) no-repeat;
+    background-size: 60% 100%;
+    transition: background-size .3s;
+}
+.menu:hover{
+    background-size: 0% 100%;
+}
+.menu3{
+    color: inherit;
+    background: linear-gradient(to top, transparent 10%, 
+    #FF3E6C 10.01%, #FF3E6C 40.01%, transparent 5px) no-repeat;
+    background-size: 60% 100%;
+    transition: background-size .3s;
+}
+.menu3:hover{
+    background-size: 0% 100%;
+}
+  .menu4{
+    color: inherit;
+    background: linear-gradient(to top, transparent 10%, 
+    #ffe45e 10.01%, #ffe45e 40.01%, transparent 5px) no-repeat;
+    background-size: 60% 100%;
+    transition: background-size .3s;
+}
+  .menu4:hover{
+    background-size: 0% 100%;
+}
+@media screen and (max-width:1200px) {
+    .titre2{
+        font-size: 2em;
+    }
+
+  .titre1{
+    font-size: 2em;
+}
+  }

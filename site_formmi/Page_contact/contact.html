@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.typekit.net/nuk4awh.css">
+    <link href="style.css" rel="stylesheet">
+     <!-- JQuery -->
+     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+ 
+     <!-- Kursor v0.1.5 by Luis Daniel Rovira  -->
+     <script src="https://cdn.jsdelivr.net/npm/kursor@0.0.14/dist/kursor.js"></script>
+     <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
+     <link rel="icon" type="image/png" href="images/64x64.png" sizes="32x32"/> 
+</head>
+
+
+<header class="barretop"> 
+        
+  <a href="../formmi/index.html"><img class="logo" src="images/FORMMI-logo-color.png"></a>
+
+  <div class="boite">
+      <div class="burgermenu bg1"></div>
+      <div class="burgermenu bg2"></div>
+      <div class="burgermenu bg3"></div>
+  </div>
+
+  <nav class="nav" id="nav">
+      <ul>
+       
+        <li class="menu"><a href="../formmi/formations.html">Formation</a></li>
+        <li class="menu3"><a href="contact.html">L'équipe</a></li>
+        <li class="menu4"><a href="../formmi/formulaire.php">Contact</a></li>
+      </ul>
+  </nav> 
+</header> 
+
+
+
+<body>
+  <div class="titre">
+  <h1 class="titre1"> L'équipe FORMMI au complet !</h1>
+  <h1 class="titre2"> L'équipe FORMMI au complet !</h1>
+  </div>
+
+
+    <div id="center" class="center"></div>
+
+    <div class="divmid">
+        <img class="leflav" src="images/logo-pink.png">
+    </div>
+    <div class="divdroite1">
+        <img class="d1" src="images/avatar-melody.png">
+    </div>
+    <div class="divdroite2">
+        <img class="d2" src="images/avatar-victoria.png">
+    </div>
+    <div class="divgauche1">
+        <img class="g1" src="images/avatar-erin.png">
+    </div>
+    <div class="divgauche2">
+        <img class="g2" src="images/avatar-flavien2.png">
+    </div>
+    <div class="texte">
+      <p></p>
+    </div>
+  
+</body>
+</html>
+<script TYPE="text/javascript"  SRC="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+
+    
+
+    $(document).ready(function(){
+        // Curseur 
+        new kursor({
+
+        // Ici y'a 5 type de curseur perso je pref le 1, 2 et 4 
+        type: 4,                   
+        removeDefaultCursor: true,
+
+        // Ici tu change la couleur en rgba obligatoirement
+        color: "rgba(0, 0, 0, 0)" 
+
+        });       
+
+        $("li").hide();
+        $(".boite").click(function(event){
+        $("li").toggle(1000);
+        });
+  
+
+
+var div_size = 0;
+
+
+
+var texte_flavien = "Passionné par <span class ='rose'>l’univers d’internet et du multimédia</span>, je me suis lancé à la recherche de <span class ='rose'>nouvelles connaissances informatiques</span> qui sont diverses et variées c’est pour cela que j’ai fais mon entrée en <span class ='rose'>DUT MMI</span>.  <br><br>Je suis <span class ='rose'>dynamique, appliqué</span> et très intéressé par ce que j’entreprend, j’aime <span class ='rose'>mettre en œuvre les nouvelles connaissances</span> acquises au fil du temps à travers des projets plus ou moins spécifiques qui peuvent être pour un côté professionnel ou bien personnel.  <span class ='rose'><br>A l’écoute</span> des autres je sais <span class ='rose'>m’adapter</span> à des groupes de personnes afin de travailler ensemble, je sais aussi <span class ='rose'>garder le contrôle</span> sur la qualité de mon travail même lors de situations stressantes ou de dernières minutes.<br><br> <a class='btn_cv' target='_blank' href='https://etudiant.u-pem.fr/~fanciaux/cvflavien/cvflavien.html'>CV</a>";
+
+var texte_erin = "19 ans d'existence, <span class ='rose'>en quête de partage, de rencontre et de savoir</span>, je mène une vie d’étudiante fraîchement diplômée d’un Baccalauréat Scientifique en région Parisienne.<br><br> À ce jour, j’étudie en <span class ='rose'>DUT MMI</span> qui m’apporte des <span class ='rose'>compétences théoriques et pratiques</span> en développement d'interface graphique ainsi qu’en <span class ='rose'>communication artistique</span>.<br><br> De nature dynamique et communicative, mon rôle s’apparente à celui du <span class ='rose'>chef de projet</span>, ainsi je dois procéder à la gestion du planning et le respect des missions prédéfinies avec mon équipe. En outre, je porte aussi la <span class ='rose'>double casquette</span> de UX designer et webdesigner d’interface graphique.<br><br> <a class='btn_cv' target='_blank' href='https://etudiant.u-pem.fr/~ebeselga/cv_beselga/'>CV</a>";
+
+var texte_melody = "Passionnée par les métiers alliant la <span class ='rose'>créativité</span>, le <span class ='rose'>numérique</span> et les <span class ='rose'>concepts liés à la psychologie</span>, j’ai découvert un réel attrait pour le métier de <span class ='rose'>UX/UI designer</span>.<br><br>Étant de nature <span class ='rose'>autonome et curieuse</span>, la <span class ='rose'>formation polyvalente</span> qu’est le DUT MMI, me permet d’explorer de <span class ='rose'>nombreux logiciels</span>, plus passionnants les uns que les autres. Cette dernière me permet quotidiennement d’apprendre à <span class ='rose'>gérer des projets</span>, ainsi qu’à <span class ='rose'>travailler efficacement en équipe</span>.<br><br> <span class ='rose'>À l’écoute et  empathique</span>, j’aime comprendre les besoins des autres afin que nous puissions avancer et rendre un travail plus que qualitatif.<br><br> <a class='btn_cv' target='_blank' href='https://etudiant.u-pem.fr/~mduna/cv_duna/'>CV</a>";
+
+var texte_victoria = "Je m’appelle <span class ='rose'>Victoria Arrii</span>, je suis née à Paris le 21 août 2001. Passionnée par les <span class ='rose'>métiers du digital</span> depuis toujours, je me suis orientée après l’obtention de mon <span class ='rose'>bac S</span> vers un <span class ='rose'>DUT MMI</span> (métiers du multimédia et de l’internet)</span> à l’IUT de champs-sur-marne. Je souhaite par la suite me diriger en <span class ='rose'>web développement</span> ou dans la <span class ='rose'>communication</span>. <span class ='rose'><br><br>J'aime apprendre</span> de nouvelles choses. Je suis une personne <span class ='rose'>créative, polyvalente, dynamique et motivée,</span> qui <span class ='rose'>aime le travail en équipe</span>. Je suis passionnée par les <span class ='rose'>sports de glace</span>. J’aime le <span class ='rose'>cinéma, la création artistique, le chant, l’équitation</span> (niveau Galop 5) et le <span class ='rose'>judo.</span><br><br> <a class='btn_cv' target='_blank' href='https://etudiant.u-pem.fr/~varrii/cv_arrii/'>CV</a>";
+
+var texte_poulpy = "Je suis la mascotte officielle de FORMMI, mais également celle de la formation MMI. Cette dernière se fait à présent en <span class ='rose'>3 ans</span> et porte le nom de <span class ='rose'>BUT MMI</span> (Métiers du Multimédia et de l’Internet).<br><br> Elle est accessible après le baccalauréat, via la plateforme <span class ='rose'>parcoursup</span>. <br>C’est une formation <span class ='rose'>polyvalente</span> qui demande <span class ='rose'>rigueur, motivation,</span> ainsi qu’un minimum de <span class ='rose'>curiosité</span>. <br><br>Il y a deux unités d'enseignement : <span class ='rose'>communication et développement</span>. Nous avons des matières comme : services sur réseau, infographie, développement web, production audiovisuelle et pleins d’autres encore! Enfin, il faut savoir que notre formation à la particularité d’être <span class ='rose'>professionnalisante</span> à travers les divers stages et projets de groupes effectués au fil des années.<br><br>";
+
+//[class^=div' sert a selectioner toutes les div 
+    $('[class^=div').click(function(){
+        var elem_top=$("#center").attr("class");
+
+        var elem=$(this.className);
+        var elem_test="."+ elem.selector;  
+
+        anim(elem_test,elem_top);
+    });
+
+function anim(class_test,elem_top){
+
+    var pos = $(class_test).position();
+ 
+start_x=pos.left;
+start_y=pos.top;
+
+pos_left = calcul_pos(class_test);
+    $('#center').removeClass(elem_top).addClass(class_test);                
+
+  
+   
+  $( elem_top ).animate({
+    opacity: 0.15,
+    top: start_y,
+    left:start_x
+  }, 1000, function() {
+    $( elem_top ).css('opacity','1') ; //fin
+  });
+
+
+
+  $( class_test ).animate({
+    opacity: 0.15,
+    top: "20%",
+    left: pos_left
+  }, 1000, function() {
+    $( class_test ).css('opacity','1'); //fin
+    
+    $(".texte p").empty();
+
+
+
+    
+
+    if ( class_test == ".divmid" ){
+      $(".texte p").html(texte_poulpy);
+    }
+
+    if ( class_test == ".divgauche1" ){
+      $(".texte p").html(texte_erin);
+    }
+    if ( class_test == ".divgauche2" ){
+      $(".texte p").html(texte_flavien);
+    }
+    if ( class_test == ".divdroite1" ){
+      $(".texte p").html(texte_melody);
+    }
+    if ( class_test == ".divdroite2" ){
+      $(".texte p").html(texte_victoria);
+    }
+    var pos_texte = calcul_pos(".texte");
+var pos_height = $(".texte").height(); 
+var postop_texte = (screen.height /2 ) - (pos_height - 120) ;
+
+
+
+$(".texte").css('left' , pos_texte);
+$(".texte").css('top' , postop_texte);
+  });
+
+}
+
+
+});
+
+
+
+
+function calcul_pos(class_test){
+
+  var screen_size =$(window).width() //screen.width;
+  div_size = $(class_test).width();
+    // alert(div_size);
+
+    // var pos_left = (screen_size /2) - (div_size /2);
+    var pos_left = (div_size / screen_size)*100;
+    pos_left = 50 - (pos_left/2) +"%";
+    // pos_left = pos_left + "%";
+    // alert(pos_left); 
+    return pos_left;
+}
+
+
+
+</script>

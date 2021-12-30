@@ -1,0 +1,327 @@
+@import url("https://use.typekit.net/nuk4awh.css");
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+/* Navigation bar */
+.barre {
+    width: 4%;
+    height: 101vh;
+    position: absolute;
+    left: 96%;
+    top: -1%;
+    writing-mode: vertical-rl;
+
+}
+
+
+.barre2 {
+    background-color: #00CFFF;
+    margin-top: 0;
+    left: 92%;
+}
+
+.barre3 {
+    background-color: #FF3E6C;
+}
+
+
+.nom_barre {
+    font-size: 2em;
+    text-align: center;
+    font-family: 'cooper-black-std', sans-serif;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    width: 10%;
+}
+
+/* Title */
+.titre1 {
+    font: normal 400 3rem "cooper-black-std", serif;
+    text-align: center;
+
+    color: white;
+    text-shadow: black 1px 1px, black -1px 1px, black -1px -1px, black 1px -1px;
+    margin-top: -4.4%;
+}
+
+.titre2 {
+    font: normal 400 3rem "cooper-black-std", serif;
+    text-align: center;
+    color: #ffe45e9f;
+    margin-top: -86px;
+    margin-left: -6px;
+}
+
+
+/* Formulaire */
+section {
+    margin-top: 2%;
+}
+
+h2 {
+    margin-left: 10%;
+    margin-bottom: 3vh;
+    text-align: left;
+    color: #000;
+    margin-left: 11%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+}
+
+#nom,
+#mail {
+    border: solid 2px #FFE45E;
+    border-radius: 25px;
+    width: 30vw;
+    height: 5vh;
+    box-shadow: 2px 2px 2px 2px #ced4da;
+    padding-left: 2vw;
+    margin-left: 10vw;
+    resize: none;
+}
+
+
+#message {
+    border: solid 2px #FFE45E;
+    border-radius: 10px;
+    min-width: 30vw;
+    max-width: 30vw;
+    min-height: 15vh;
+    max-height: 15vh;
+    box-shadow: 2px 2px 2px 2px #ced4da;
+    padding-left: 15px;
+    margin-left: 10vw;
+}
+
+textarea:hover {
+    border: solid 3px #FFE45E;
+    border-radius: 10px;
+}
+
+
+
+.button_form {
+    border: solid 1px #FFE45E;
+    border-radius: 25px;
+    background-color: #FFE45E;
+    color: white;
+    width: 10vw;
+    height: 5vh;
+    margin-left: 9.8%;
+    margin-top: 2%;
+    box-shadow: 2px 2px 2px 2px #ced4da;
+    padding: 2px;
+    transition: 1s all;
+}
+
+.button_form:hover {
+    background-color: white;
+    color: #FFE45E;
+    border: solid 2px #FFE45E;
+    cursor: pointer;
+
+}
+
+/* Contact */
+.img_contact {
+    float: right;
+    margin-right: 20vw;
+    margin-top: -60vh;
+    height: 42vh;
+}
+
+.contact {
+    float: right;
+    margin-right: 23%;
+    margin-top: -12%;
+    line-height: 2vh;
+}
+
+.underline {
+    color: black;
+    text-decoration: none;
+
+    background: linear-gradient(to top, transparent 10%,
+            10.01%, #ffe45ebe 40.01%, transparent 5px) no-repeat;
+    background-size: 0 100%;
+    transition: background-size .3s;
+}
+
+.underline:hover {
+    background-size: 100% 100%;
+}
+
+.reseaux {
+    width: 20vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img_reseaux {
+    width: 6vh;
+    height: 6vh;
+    margin-top: 2vh;
+}
+
+/* Responsive */
+@media screen and (min-width: 1600px) {
+    .titre1 {
+        margin-top: -5%;
+        font-size: 4rem;
+    }
+
+    .titre2 {
+        margin-top: -6.6%;
+        font-size: 4rem;
+    }
+
+    .contact div p {
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+    }
+
+    .img_reseaux {
+        height: 8vh;
+        width: 8vh;
+    }
+
+
+    .img_contact {
+        height: 48vh;
+        margin-bottom: 10vh;
+
+    }
+
+    textarea {
+        width: 30vw;
+        height: 20vh;
+        max-height: 30vh;
+    }
+
+    .contact {
+        margin-right: 10vw;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    h2 {
+        margin-bottom: 8vh;
+        font-size: 1.2rem;
+    }
+
+    textarea {
+        width: 30vw;
+        height: 20vh;
+        max-height: 20vh;
+    }
+
+    .img_contact {
+        height: 30vh;
+        margin-bottom: 0px;
+    }
+
+    .contact {
+        margin-top: -30vh;
+        margin-right: 19vw;
+
+    }
+
+    .nom_barre {
+        font-size: 1rem;
+    }
+
+    .img_reseaux {
+        margin-right: 35%;
+    }
+}
+
+@media screen and (max-width: 1924px) {
+
+    textarea {
+        width: 30vw;
+        height: 20vh;
+        max-height: 20vh;
+    }
+
+    .img_contact {
+        height: 30vh;
+        margin-bottom: 0px;
+    }
+
+    .contact {
+        margin-top: -30vh;
+        margin-right: 19vw;
+
+    }
+
+    .nom_barre {
+        font-size: 1rem;
+    }
+
+    .img_reseaux {
+        margin-right: 35%;
+    }
+
+    .img_reseaux {
+        height: 6vh;
+        width: 6vh;
+    }
+
+    .nom_barre {
+        font-size: 2em;
+        text-align: center;
+        font-family: 'cooper-black-std', sans-serif;
+        margin-right: 10px;
+    }
+
+
+}
+
+@media screen and (max-width: 1500px) {
+    h2 {
+        margin-bottom: 8vh;
+        font-size: 1.2rem;
+    }
+
+    textarea {
+        width: 30vw;
+        height: 20vh;
+        max-height: 20vh;
+    }
+
+    .img_contact {
+        height: 30vh;
+        margin-bottom: 0px;
+    }
+
+    .contact {
+        margin-top: -30vh;
+        margin-right: 19vw;
+
+    }
+
+    .nom_barre {
+        font-size: 1rem;
+    }
+
+    .img_reseaux {
+        margin-right: 35%;
+    }
+}

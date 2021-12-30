@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formations</title>
+    <link rel="stylesheet" href="formations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/pmx8wxl.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <!-- Kursor v0.1.5 by Luis Daniel Rovira  -->
+    <script src="https://cdn.jsdelivr.net/npm/kursor@0.0.14/dist/kursor.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
+    <link rel="icon" type="image/png" href="photos/logo-64x64.png" sizes="32x32"/> 
+</head>
+
+<body>
+    <!-- Logo formmi -->
+    <a href="index.html">
+        <img class="logo" src="photos/logo.png" alt="Aller à la page d'acceuil">
+    </a>
+
+    <!-- Navigation bar-->
+    <nav class="conteneur">
+        <div class=" barre barre2">
+            <a href="../Page_contact/contact.html">
+                <p class="nom_barre">L'équipe</p>
+            </a>
+        </div>
+        <div class=" barre barre3">
+            <a href="formulaire.php">
+                <p class="nom_barre">Contacts</p>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Title -->
+    <div>
+        <h1 class="titre1">Nos recommandations</h1>
+        <h1 class="titre2">Nos recommandations</h1>
+    </div>
+
+    <section class="container">
+        <!-- creation of the first card -->
+        <div class="allcard">
+            <div class="cards">
+                <h1 class="title_card">Developpement<br> web</h1>
+            </div>
+            <!-- creation of the button "learn more" -->
+            <div class="learnmore">
+                <a href="../page_ecolePHP/ecole_dev.php">
+                    <h2 class="titlebutton"> En savoir +</h2>
+                </a>
+            </div>
+        </div>
+
+        <!-- creation of the second card -->
+        <div class="allcard">
+            <div class="cards">
+                <h1 class="title_card">Graphisme</h1>
+            </div>
+            <!-- creation of the button "learn more" -->
+            <div class="learnmore">
+                <a href="../page_ecolePHP/ecole_graphisme.php">
+                    <h2 class="titlebutton"> En savoir +</h2>
+                </a>
+            </div>
+        </div>
+
+        <!-- creation of the third card -->
+        <div class="allcard">
+            <div class="cards">
+                <h1 class="title_card ">Communication</h1>
+            </div>
+            <!-- creation of the button "learn more" -->
+            <div class="learnmore">
+                <a href="../page_ecolePHP/ecole_com.php">
+                    <h2 class="titlebutton"> En savoir +</h2>
+                </a>
+            </div>
+        </div>
+        <!-- creation of the fourth card -->
+        <div class="allcard">
+            <div class="cards">
+                <h1 class="title_card">Audiovisuel</h1>
+            </div>
+            <!-- creation of the button "learn more" -->
+            <div class="learnmore">
+                <a href="../page_ecolePHP/ecole_audiovisuel.php">
+                    <h2 class="titlebutton"> En savoir +</h2>
+                </a>
+            </div>
+        </div>
+    </section>
+</body>
+<script TYPE="text/javascript"  SRC="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+
+    
+
+    $(document).ready(function(){
+        // Curseur 
+        new kursor({
+
+        // Ici y'a 5 type de curseur perso je pref le 1, 2 et 4 
+        type: 4,                   
+        removeDefaultCursor: true,
+
+        // Ici tu change la couleur en rgba obligatoirement
+        color: "rgba(0, 0, 0, 0)" 
+
+        });      
+    });
+    </script>
+</html>

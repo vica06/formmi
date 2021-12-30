@@ -1,0 +1,16 @@
+Rentrer l'url dans le navigateur. 
+
+!!! Visionner le site en 1920 x 1080 !!!
+
+
+Graphisme
+http://127.0.0.1/page_ecolePHP/ecole_graphisme.php
+
+Dev : 
+http://127.0.0.1/page_ecolePHP/ecole_dev.php
+
+Audiovisuel : 
+http://127.0.0.1/page_ecolePHP/ecole_audiovisuel.php
+
+Com : 
+http://127.0.0.1/page_ecolePHP/ecole_com.php

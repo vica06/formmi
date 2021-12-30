@@ -1,0 +1,85 @@
+@import url("https://use.typekit.net/nuk4awh.css");
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.logo {
+    width: 10%;
+}
+
+/* Text */
+.section_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h3 {
+    font-family: 'cooper-black-std', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20vh;
+}
+
+.index {
+    padding: 1%;
+    width: 15vw;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 25px;
+    margin-left: 2%;
+    background-color: #00CFFF;
+    color: white;
+    box-shadow: 3px 3px 3px 3px #ced4da;
+    border: solid 2px #00CFFF;
+    position: absolute;
+    bottom: 3%;
+
+    transition: all 1s;
+}
+
+.index:hover {
+    background-color: white;
+    color: #00CFFF;
+}
+
+/* Footer */
+.instagram {
+    position: absolute;
+    top: 93vh;
+    left: 3%;
+    height: 35px;
+    width: 38px;
+}
+
+h2 {
+    position: absolute;
+    top: 92vh;
+    left: 10%;
+    font-size: 1.25rem;
+    color: #000;
+}
+
+/* Responsive */
+@media screen and (max-width:1200px) {
+    .index {
+        font-size: 1.5rem;
+        width: 30vw;
+    }
+}
